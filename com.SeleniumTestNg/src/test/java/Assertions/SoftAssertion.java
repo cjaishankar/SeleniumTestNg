@@ -32,7 +32,7 @@ public class SoftAssertion {
 		System.out.println("Confirmation screen");
 		Assert.assertEquals(true, true,"confrimation scree not expected");
 		
-		softAsset.assertAll();
+		softAsset.assertAll("Plese find the list of assertion failed below");
 		
 	}
 

@@ -10,6 +10,7 @@ public class HardAssertion {
 	
 	public void hardassert() 
 	{
+//		SoftAssert sa= new SoftAssert();
 		
 		System.out.println("Navigate to browser");
 		Assert.assertEquals(true, true,"not as expected");
@@ -20,6 +21,9 @@ public class HardAssertion {
 		
 		System.out.println("download software");
 		Assert.assertEquals("DXC login scree", "DXC login scree", "not as expected");
+		
+//		sa.assertAll("Please find the list of Assertion error as given below, validate and correct it");
+		
 	}
 
 }
