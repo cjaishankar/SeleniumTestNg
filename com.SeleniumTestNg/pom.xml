@@ -31,11 +31,13 @@
 	    <artifactId>selenium-java</artifactId>
 	    <version>3.9.0</version>
 	</dependency>
+	<!-- Chrome Driver dependency -->
 	<dependency>
 		<groupId>org.seleniumhq.selenium</groupId>
 		<artifactId>selenium-chrome-driver</artifactId>
 		<version>2.50.0</version>
 	</dependency>
+	<!-- firefox Driver dependency -->
 	<dependency>
 		<groupId>org.seleniumhq.selenium</groupId>
 		<artifactId>selenium-firefox-driver</artifactId>
