@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 11 11:05:51 IST 2020</td>
+<td>Started on:</td><td>Fri Dec 11 23:14:31 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (96 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (110 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Assertions.HardAssertion.hardassert()'><b>hardassert</b><br>Test class: Assertions.HardAssertion</td>
-<td><div><pre>java.lang.AssertionError: not as expected expected [Hpe software] but found [DXC software]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at Assertions.HardAssertion.hardassert(HardAssertion.java:19)
+<td title='Assertions.SoftAssertion.test1()'><b>test1</b><br>Test class: Assertions.SoftAssertion</td>
+<td><div><pre>java.lang.AssertionError: Plese find the list of assertion failed below
+	Title not as expected expected [Dxc Networking] but found [HP Networking],
+	details are not as expected expected [DXC enter screen] but found [HP enter screen],
+	EUA not as expected expected [HPe EUA screen] but found [HP EUA screen]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at Assertions.SoftAssertion.test1(SoftAssertion.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,14 +110,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1267655902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1267655902'><pre>java.lang.AssertionError: not as expected expected [Hpe software] but found [DXC software]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at Assertions.HardAssertion.hardassert(HardAssertion.java:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace120478350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace120478350'><pre>java.lang.AssertionError: Plese find the list of assertion failed below
+	Title not as expected expected [Dxc Networking] but found [HP Networking],
+	details are not as expected expected [DXC enter screen] but found [HP enter screen],
+	EUA not as expected expected [HPe EUA screen] but found [HP EUA screen]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at Assertions.SoftAssertion.test1(SoftAssertion.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -149,7 +147,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Assertions.HardAssertion@776b83cc</td></tr>
+<td>Assertions.SoftAssertion@2177849e</td></tr>
 </table><p>
 </body>
 </html>
