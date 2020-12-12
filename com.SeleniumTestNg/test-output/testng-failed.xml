@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assertions.SoftAssertion">
+      <class name="VariousAssertions">
         <methods>
-          <include name="test1"/>
+          <include name="ast"/>
         </methods>
-      </class> <!-- Assertions.SoftAssertion -->
+      </class> <!-- VariousAssertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
